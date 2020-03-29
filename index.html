@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no">
+	<title>calendar</title>
+	<link rel="stylesheet" href="./lib/calendar.css" />
+	<script type="text/javascript" src="./lib/calendars.js"></script>
+</head>
+
+<body>
+	<div id="Calendar"></div>
+	<script language="JavaScript">
+		(function () {
+			var cale = new Calendar("Calendar", {
+				Year: 2020, //显示年
+				Month: 03, //显示月
+				Day: 29,
+				dayClick: function (e) {
+					console.log(e)
+				},
+				onFinish: function () {
+
+				}
+
+			});
+
+
+		})()
+
+	</script>
+
+</body>
+
+</html>

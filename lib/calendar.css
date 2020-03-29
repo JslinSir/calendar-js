@@ -1,0 +1,76 @@
+.Calendar {
+	background: #fff;
+	padding-bottom: 1rem;
+  }
+  .Calendar #toyear {
+	border-bottom: 1px #e7e7e7 solid;
+	width: 96%;
+	margin: 0 auto;
+	height: 2.5rem;
+	text-align: center;
+	color: #333;
+	font-size: .95rem;
+  }
+  .Calendar #toyear .year-month {
+	height: 100%;
+	line-height: 2.5rem;
+  }
+  .Calendar #toyear #idCalendarPre,
+  .Calendar #toyear #idCalendarNext {
+	height: 100%;
+	line-height: 2.5rem;
+	padding: 0 2rem;
+	text-align: center;
+	font-size: .85rem;
+	color: #999;
+  }
+  .Calendar table,
+  .Calendar tr,
+  .Calendar td {
+	border: 0;
+  }
+  .Calendar table {
+	width: 96%;
+	margin: 0 auto;
+  }
+  .Calendar table tr {
+	text-align: center;
+	height: 2rem;
+  }
+  .Calendar table tr td span {
+	margin: 0 auto;
+	display: block;
+	line-height: 1.6rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	font-size: .9rem;
+	border-radius: 100%;
+  }
+  .Calendar table tr .onToday span {
+	background: #E91E63;
+	color: #fff;
+  }
+  .Calendar table tr .onBukaday span {
+	background: #f6b15c;
+	color: #fff;
+  }
+  .Calendar table tr .onNoQDday span {
+	background: #e7e7e7;
+	color: #fff;
+  }
+
+.flex,
+.fn-flex {
+	display: -webkit-box;
+	display: box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex
+}
+.flex-pack-center {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+  
